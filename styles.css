@@ -18,6 +18,15 @@ body {
   height: 100vh;
 }
 
+#organisation {
+  position: absolute;
+  top: 2%;
+}
+
+#organisation p {
+  font-size: 0.8em;
+}
+
 #container {
   background-color: #ffffff;
   height: 25em;
@@ -101,6 +110,13 @@ svg {
   height: 2em;
 }
 
+#address {
+  color: var(--primary);
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8em;
+  margin-top: 1em;
+}
+
 footer {
   position: absolute;
   top: 96%;
@@ -112,7 +128,7 @@ footer p {
 
 @media screen and (max-width: 420px) {
   #container {
-    height: 20em;
+    height: 22em;
     margin: 1em;
   }
 
@@ -135,7 +151,7 @@ footer p {
 
 @media screen and (min-width: 420px) and (max-width: 620px) {
   #container {
-    height: 20em;
+    height: 24em;
     margin: 1em;
   }
 
